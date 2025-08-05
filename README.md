@@ -24,7 +24,7 @@
 
 This project provisions a **fully private EKS cluster** running **entirely on AWS Outposts**, including:
 
-- **Control Plane** deployed on Outposts
+- **Control Plane** deployed on Cloud Region
 - **Worker Nodes** deployed on Outposts via Auto Scaling Group
 - Full **VPC networking**, **IAM roles**, **launch templates**, and **cluster bootstrapping**
 - Secure and isolated Kubernetes deployment with **no public endpoint exposure**
